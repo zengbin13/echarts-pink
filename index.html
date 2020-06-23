@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>可视化面板</title>
+  </head>
+  <body>
+    <header>
+      <h1>数据可视化-ECharts</h1>
+      <div class="show-time"></div>
+    </header>
+    <main>
+      <div class="mian-box">
+        <div class="column">
+          <div class="panel bar">
+            <h2>柱形图-就业行业</h2>
+            <div class="chart"></div>
+            <div class="panel-footer"></div>
+          </div>
+          <div class="panel line">
+            <h2>
+              折线图-人员变化
+              <a href="javascript:void(0)">2020</a>
+              <a href="javascript:void(0)">2021</a>
+            </h2>
+            <div class="chart"></div>
+            <div class="panel-footer">1</div>
+          </div>
+          <div class="panel pie">
+            <h2>饼形图-年龄分布</h2>
+            <div class="chart"></div>
+            <div class="panel-footer"></div>
+          </div>
+        </div>
+        <div class="column center">
+          <div class="no">
+            <ul class="no-hd">
+              <li>12564</li>
+              <li>19234</li>
+            </ul>
+            <ul class="no-bd">
+              <li>前端需求人数</li>
+              <li>市场供应人数</li>
+            </ul>
+          </div>
+          <div class="map">
+            <div class="chart"></div>
+            <div class="map1"></div>
+            <div class="map2"></div>
+            <div class="map3"></div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="panel bar2">
+            <h2>柱形图-前端技能</h2>
+            <div class="chart"></div>
+            <div class="panel-footer"></div>
+          </div>
+          <div class="panel line2">
+            <h2>折线图-播放量</h2>
+            <div class="chart"></div>
+            <div class="panel-footer"></div>
+          </div>
+          <div class="panel pie2">
+            <h2>饼形图-地区分布</h2>
+            <div class="chart"></div>
+            <div class="panel-footer"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./js/flexible.js"></script>
+    <script src="./js/utils.js"></script>
+    <script src="./js/echarts.min.js"></script>
+    <script src="./js/china.js"></script>
+    <script src="./js/jquery.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
